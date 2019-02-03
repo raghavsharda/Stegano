@@ -26,5 +26,19 @@ def merge (imagePath1,imagePath2):
     path2='C:/Users/Raghav/Desktop/steganography-master/images/forest_hidden.png'
 
     #Lets try to create a new image
+    newImage = Image.new('RGB',img1.size)
+    pixelNew = newImage.load()
     
-merge(path2,path1)
+    #trying to convert int to binary for R G B...but how?
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+merge(path1,path2)
