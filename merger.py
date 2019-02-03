@@ -22,8 +22,8 @@ def merge (imagePath1,imagePath2):
     pixel_map2 = img2.load()
     
     #path name for testing
-    path1='C:/Users/Raghav/Desktop/steganography-master/images/enigma.jpg'
-    path2='C:/Users/Raghav/Desktop/steganography-master/images/forest_hidden.png'
+    path1='C:/Users/Raghav/Desktop/gitprojects/steno/stegano/enigma.jpg'
+    path2='C:/Users/Raghav/Desktop/gitprojects/steno/stegano/forest_hidden.png'
 
     #Lets try to create a new image
     newImage = Image.new('RGB',img1.size)
